@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import random  # Added for computer player's random moves
+import random  
 
 # Initialize game state
 if 'board' not in st.session_state:
